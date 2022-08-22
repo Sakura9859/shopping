@@ -1,0 +1,129 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header .logo {
+    height: 82px;
+    width: 100%;
+    border-bottom: 2px solid #b1191a;
+    margin-bottom: 21px;
+}
+
+header .logo a {
+    display: block;
+    padding-top: 16px;
+
+}
+
+main {
+    height: 520px;
+
+    border: 1px solid #dfdfdf;
+}
+
+main .hd {
+    height: 40px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dfdfdf;
+    /* text-align: center; */
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+main .hd span {
+    float: right;
+    font-size: 14px;
+    color: #333333;
+
+}
+
+main .hd em {
+    font-size: 18px;
+    color: #333333;
+}
+
+main .content {
+    text-align: center;
+}
+
+main .box {
+    width: 600px;
+    height: 393px;
+    margin: 0 auto;
+}
+
+main .content ul {
+    margin-top: 50px;
+}
+
+main .content ul li {
+    margin-top: 20px;
+}
+
+main .content ul li label {
+    display: inline-block;
+    width: 90px;
+
+    text-align: right;
+}
+
+
+
+
+main .content ul li input {
+    width: 239px;
+    height: 36px;
+    border: 1px solid #999999;
+    margin: 0 10px;
+}
+
+main .content ul li span {
+    display: inline-block;
+    width: 220px;
+    height: 36px;
+    line-height: 36px;
+    /* vertical-align: middle; */
+}
+
+main .content ul li span em {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+main .content ul li .success {
+    color: green;
+}
+
+main .content ul li span i {
+    line-height: 40px;
+}
+
+main .content ul li .cd {
+    text-align: center;
+    display: inline-block;
+    width: 190px;
+    height: 18px;
+    margin-left: -46px;
+
+
+}
+
+main .content ul li .cd div {
+    display: inline-block;
+    padding: 0 10px;
+    color: aliceblue;
+}
+
+main .content ul li .cd .r {
+    background-color: red;
+}
+
+main .content ul li .cd .z {
+    background-color: green;
+}
+
+main .content ul li .cd .q {
+    background-color: gold;
+}

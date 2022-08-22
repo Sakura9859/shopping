@@ -1,0 +1,125 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header .logo h1 .ms img {
+
+    position: absolute;
+    top: 13px;
+    left: 196px;
+    width: 90px;
+    padding: 0 19px;
+    border-left: 1px solid red;
+}
+
+
+
+main {
+
+    border-top: 2px solid #b1191a;
+}
+
+main .neiron .img {
+    height: 121px;
+}
+
+main .neiron .shouji ul {
+    margin-top: 20px;
+}
+
+main .neiron .shouji ul li {
+    float: left;
+    margin-right: 14px;
+    width: 289px;
+    height: 458px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 10px;
+    border: 1px solid transparent;
+}
+
+
+
+main .neiron .shouji ul li:hover {
+    border: 1px solid red;
+}
+
+main .neiron .shouji ul li img {
+    width: 100%;
+}
+
+main .neiron .shouji ul li .jiage {
+    position: relative;
+    left: -80px;
+    /* float: left; */
+    margin-top: 12px;
+    width: 100%;
+    height: 30px;
+
+
+}
+
+main .neiron .shouji ul li div span {
+    font-size: 14px;
+    color: red;
+}
+
+main .neiron .shouji ul li div i {
+    font-size: 22px;
+    color: red;
+}
+
+main .neiron .shouji ul li div em {
+    text-decoration: line-through;
+}
+
+/* main .neiron .shouji ul li div em {
+    float: left;
+} */
+.jdt {
+    display: inline-block;
+    width: 135px;
+    height: 13px;
+    border: 1px solid red;
+    line-height: 13px;
+    border-radius: 7px;
+    margin: 10px 10px 0 10px;
+
+}
+
+.jdt_1 {
+    width: 60%;
+    height: 100%;
+    background-color: red;
+    border-radius: 7px;
+    transition: all 0.5s;
+
+}
+
+.jdt:hover .jdt_1 {
+    width: 95%;
+}
+
+
+main .neiron .shouji ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.anniu a {
+    position: absolute;
+    bottom: -78px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #b1191a;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 50px;
+    margin-top: 15px;
+
+}
+
+.anniu {
+    position: relative;
+}

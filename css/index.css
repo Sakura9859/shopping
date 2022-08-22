@@ -1,0 +1,149 @@
+.main {
+    height: 455px;
+
+}
+
+.main .neiron {
+    margin-top: 10px;
+    height: 100%;
+    width: 980px;
+    margin-left: 220px;
+
+
+}
+
+.main .png {
+    float: left;
+    width: 720px;
+    height: 100%;
+
+}
+
+.main .newflash {
+    float: right;
+    height: 100%;
+    width: 250px;
+
+}
+
+.newflash .news {
+    height: 164px;
+    width: 250px;
+
+    border: 1px solid #e4e4e4;
+
+}
+
+.newflash .news .hd {
+    height: 30px;
+    border-bottom: 1px dotted #e4e4e4;
+    line-height: 30px;
+}
+
+.newflash .news .hd h4 {
+    float: left;
+    padding-left: 15px;
+}
+
+.newflash .news .hd a {
+    float: right;
+}
+
+.newflash .news .hd a::after {
+    content: "\e902";
+    font-family: "icomoon";
+    padding-right: 10px;
+}
+
+.newflash .news .bd ul {
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+
+.newflash .news .bd ul li {
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.newflash .live {
+    height: 208px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+
+    overflow: hidden;
+}
+
+.newflash .live ul {
+    width: 253px;
+
+}
+
+.newflash .live ul li {
+
+    float: left;
+    width: 63px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+
+
+}
+
+.newflash .live ul li div {
+
+    margin-top: 13px;
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background: url(../upload/icons.png) no-repeat -16px -14px;
+
+
+}
+
+.newflash .guanggao {
+    height: 75px;
+    margin-top: 8px;
+}
+
+/* 今日推荐开始 */
+/* --------------------------------------------------------------------------------- */
+.recom {
+    height: 162px;
+    background-color: #ebebeb;
+
+}
+
+.recom .recom_lf {
+    float: left;
+    width: 207px;
+    height: 100%;
+    background-image: url(../images/今日推荐.png);
+}
+
+.recom .recom_rh ul li {
+    position: relative;
+    float: left;
+    width: 247px;
+    height: 160px;
+}
+
+.recom .recom_rh ul li img {
+    width: 247px;
+    height: 160px;
+}
+
+.recom .recom_rh ul li:nth-of-type(-n+3):after {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    content: "";
+    width: 0px;
+    height: 142px;
+    border: 1px solid #dddddd;
+
+}
